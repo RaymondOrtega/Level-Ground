@@ -1,0 +1,458 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin-left: 0;
+}
+html{
+  font-size: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  text-align: center;
+  margin: 0;
+}
+ header{
+   background-color: rgb(103, 118, 137);
+   height:550px;
+   width: 100%;
+ }
+ .TopOfHeader{
+
+   height:50px;
+   width: 100%;
+ }
+.TopOfHeader > h2{
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 17px 0 0 5%;
+  display: inline-block;
+}
+.buttonD{
+  border-radius: 5%;
+  font-weight: 470;
+width: 5%;
+height: 27px;
+font-family: sans-serif;
+display: inline-block;
+font-size: 1.3em;
+color: rgb(103, 118, 137);
+background-color: white;
+padding: 6px 0 0 0;
+margin: 0px 0 0 67%;
+}
+h1{
+  color: white;
+  font-weight: 540;
+  font-family: sans-serif;
+  font-size: 5.3em;
+  margin: 109px 0 0 0;
+
+}
+
+h1 + p{
+  color: white;
+  max-width: 60%;
+  line-height: 1.2em;
+  font-size: 2em;
+  margin: 40px 0 0 21%;
+}
+
+h1 + p + h4 {
+  color: white;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin: 60px 0 0 4%;
+}
+.bottomWord{
+  font-style: italic;
+  font-weight: 300;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  margin: 80px 0 0 4%;
+}
+.TopOfHeader > h2 + h3{
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 0 1%;
+  display: inline-block;
+}
+ .WhySec{
+   height:700px;
+   width: 100%;
+ }
+  .WhySec > h3{
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 3em;
+    margin: 105px 0 0 0;
+  }
+  .WhySec > h3 + p{
+    max-width: 60%;
+    line-height: 1.4em;
+    font-size: 2em;
+    margin: 25px 0 0 21%;
+  }
+
+.SquareCont{
+  height:700px;
+  width: 100%;
+}
+.Square{
+  background-color:rgb(219, 223, 226);
+  float: left;
+  display: inline-block;
+  height:600px;
+  width: 50%;
+}
+
+.SquareInternal {
+  background-color:rgb(103, 118, 137);
+    margin: 90px 0 0 29%;
+    height: 190px;
+    width: 42%;
+}
+.SquareInternal + h3{
+  font-family: sans-serif;
+  font-size: 1.8em;
+  font-weight: 500;
+  margin: 35px 0 0 0;
+
+}
+.SquareInternal + h3 + p{
+  max-width: 70%;
+line-height: 1.4em;
+font-size: 2em;
+margin: 25px 0 0 16%;
+  }
+.Volunteer {
+  border: 2px solid black;
+  height:700px;
+  width: 100%;
+}
+.Volunteer > h3{
+      font-weight: 500;
+      font-family: sans-serif;
+      font-size: 3em;
+      margin: 105px 0 0 0;
+}
+.Volunteer > h3 + p{
+  max-width: 50%;
+  line-height: 1.4em;
+  font-size: 2em;
+  margin: 25px 0 0 25%;
+}
+.LastButton{
+  border: 1px solid black;
+  border-radius: 5%;
+  font-weight: 500;
+  width: 10%;
+  height: 40px;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  padding: 12px 0 0 0;
+  margin: 25px 0 0 45%;
+}
+
+ footer{
+   background-color: rgb(22, 31, 42);
+   border: 2px solid black;
+   height:300px;
+   width: 100%;
+ }
+.FootLeft{
+  background-color: rgb(22, 31, 42);
+  float: left;
+  height:200px;
+  width: 20%;
+}
+.FootRight{
+  padding: 25px 0 0 0;
+  text-align: left;
+  background-color: rgb(22, 31, 42);
+  float: right;
+  height:200px;
+  width: 20%;
+}
+.FootRight > h5{
+  margin: 5px 0 0 0;
+  font-size: 1.3em;
+  color: white;
+}
+.FootRight > h5 + p{
+  margin: 15px 0 0 0;
+  max-width: 44%;
+  font-size: 1.3em;
+  color: white;
+}
+.email{
+  margin: 10px 0 0 0;
+  font-size: 1.3em;
+  color: white;
+}
+.almost{
+  color:rgb(64, 76, 92);
+  font-size: 1.3em;
+  margin: 40px 65% 0 0;
+  display: block;
+}
+.finished{
+  color: white;
+  font-size: 1.3em;
+  margin: 0 6% 0 0;
+  display: inline-block;
+}
+.This{
+  color: white;
+  font-size: 1.3em;
+  margin: 6px 41% 0 0;
+  display: inline-block;
+}
+.Was{
+  color:rgb(64, 76, 92);
+  font-size: 1.3em;
+  margin: 30px 64% 0 6%;
+  display: block;
+}
+.A{
+  color: white;
+  font-size: 1.3em;
+  margin: 0 0 0 0;
+  display: inline-block;
+}
+.Challlenge{
+  color: white;
+  font-size: 1.3em;
+  margin: 9px 36% 0 9%;
+  display: inline-block;
+}
+.BottomFoot{
+
+  margin: 0 4% 0 0%;
+  float: right;
+  border-top: 2px solid white;
+  height: 100px;
+  width: 93%;
+}
+.BottomFoot > p{
+  color: white;
+  font-size: 1.6em;
+  float: left;
+}
+
+@media only screen and (max-width:1098px){
+  .buttonD {
+    border-radius: 5%;
+    font-weight: 470;
+    width: 8%;
+    height: 27px;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(103, 118, 137);
+    background-color: white;
+    padding: 6px 0 0 0;
+    margin: 0px 0 0 45%;
+}
+  .FootLeft {
+    background-color: rgb(22, 31, 42);
+    float: left;
+    height: 200px;
+    width: 30%;
+}
+
+}
+
+
+@media only screen and (max-width:741px){
+  .buttonD {
+    border-radius: 5%;
+    font-weight: 470;
+    width: 8%;
+    height: 27px;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(103, 118, 137);
+    background-color: white;
+    padding: 6px 0 0 0;
+    margin: 0px 0 0 5%;
+}
+.SquareInternal {
+    background-color: rgb(103, 118, 137);
+    margin: 9px 0 0 29%;
+    height: 190px;
+    width: 51%;
+}
+.SquareInternal + h3 + p {
+    max-width: 78%;
+    line-height: 1.4em;
+    font-size: 2em;
+    margin: 25px 0 0 16%;
+}
+.LastButton {
+    border: 1px solid black;
+    border-radius: 5%;
+    font-weight: 500;
+    width: 14%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    padding: 12px 0 0 0;
+    margin: 25px 0 0 45%;
+}
+
+
+.email {
+  display: none;
+    margin: 10px 0 0 0;
+    font-size: 1.3em;
+    color: white;
+}
+
+
+}
+
+@media only screen and (max-width:635px){
+
+  .Square {
+      background-color: rgb(219, 223, 226);
+      float: left;
+      display: inline-block;
+      height: 600px;
+      width: 100%;
+  }
+  .Volunteer {
+      border: 2px solid black;
+      height: 1000px;
+      width: 100%;
+  }
+  .FootLeft {
+      background-color: rgb(22, 31, 42);
+      float: left;
+      height: 200px;
+      width: 50%;
+  }
+
+  .FootRight {
+    padding: 25px 0 0 0;
+    text-align: left;
+    background-color: rgb(22, 31, 42);
+    float: right;
+    height: 200px;
+    width: 40%;
+}
+.LastButton {
+    border: 1px solid black;
+    border-radius: 5%;
+    font-weight: 500;
+    width: 14%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    padding: 12px 0 0 0;
+    margin: 25px 0 0 43%;
+}
+
+
+
+}
+
+@media only screen and (max-width:607px){
+  .SquareInternal {
+    background-color: rgb(103, 118, 137);
+    margin: 9px 0 0 23%;
+    height: 190px;
+    width: 58%;
+}
+.TopOfHeader > h2 + h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 0 1%;
+    display: none;
+}
+  .buttonD {
+
+    border-radius: 5%;
+    font-weight: 470;
+    width: 8%;
+    height: 27px;
+    font-family: sans-serif;
+    display: none;
+    font-size: 1.3em;
+    color: rgb(103, 118, 137);
+    background-color: white;
+    padding: 6px 0 0 0;
+    margin: 0px 0 0 5%;
+}
+
+  .TopOfHeader > h2 + h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0 0 0 1%;
+    display: none;
+}
+.LastButton {
+    border: 1px solid black;
+    border-radius: 5%;
+    font-weight: 500;
+    width: 27%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    padding: 12px 0 0 0;
+    margin: 25px 0 0 38%;
+}
+}
+
+@media only screen and (max-width:480px){
+.Volunteer {
+    border: 2px solid black;
+    height: 1180px;
+    width: 100%;
+}
+
+.FootRight > h5 {
+  display: none;
+  margin: 5px 0 0 0;
+  font-size: 1.3em;
+  color: white;}
+
+.FootRight > h5 + p {
+  display: none;
+  margin: 15px 0 0 0;
+  max-width: 44%;
+  font-size: 1.3em;
+  color: white;
+}
+.FootLeft {
+   background-color: rgb(22, 31, 42);
+   float: left;
+   height: 200px;
+   width: 100%;
+    }
+.FootRight {
+   display: none;
+   padding: 25px 0 0 0;
+   text-align: left;
+   background-color: rgb(22, 31, 42);
+   float: right;
+   height: 200px;
+   width: 40%;
+}
+h1 {
+    color: white;
+    font-weight: 540;
+    font-family: sans-serif;
+    font-size: 4.3em;
+    margin: 109px 0 0 0;
+}
+}
